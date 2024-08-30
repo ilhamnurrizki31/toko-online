@@ -3,7 +3,9 @@
 
     $queryProduct = mysqli_query($conn, "SELECT id, nama, harga, foto, detail FROM product Limit 6")
 ?>
+<?php
 
+?>
 
 <!DOCTYPE html>
 <html lang="en">
